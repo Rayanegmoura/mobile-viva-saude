@@ -1,0 +1,7 @@
+{
+  "name": "mobile-viva-saude",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
