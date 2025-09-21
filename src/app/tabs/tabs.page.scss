@@ -1,1 +1,21 @@
+ion-tab-bar {
+  --background: #001E4F;
+  --color: #fff;
+  padding-bottom: 5px;
+}
 
+ion-tab-button {
+  position: relative;
+}
+
+ion-tab-button.tab-selected::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;      
+  height: 6px;
+  border-radius: 50%;
+  background-color: #FF4A4A; 
+}

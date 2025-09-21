@@ -1,0 +1,150 @@
+/* Modelo da Página */
+
+ion-toolbar {
+    --background: #F9FAFB;
+    --color: #000000;
+}
+
+.titulo-centralizado {
+    position: absolute;      
+    top: 50%;                
+    left: 50%;               
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;              
+}
+
+ion-content {
+  --background: #F9FAFB;
+}
+
+ion-card {
+    --background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+ion-card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #001E4F;
+}
+
+/* BOTÃO DO TOPO */
+
+.botao-saude{
+    color: #001E4F;
+    font-size: 40px;
+}
+
+/* Barra de Pesquisa */
+
+ion-searchbar.custom {
+  --background: #F9FAFB;
+  --color: #000;
+  --placeholder-color: #000000;
+  --icon-color: #001E4F;
+  --clear-button-color: #000;
+  --border-radius: 30px;
+    width: 95%;         
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+ion-searchbar.ios.custom {
+  --cancel-button-color: #001E4F;
+}
+
+ion-searchbar.md.custom {
+  --cancel-button-color: #001E4F;
+}
+
+/* Botões topo */
+
+.botao-topo{
+  --background: #001E4F;
+  --color: #FFFFF;
+  --border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Notificações recentes */
+
+.lista-notificacoes {
+    color:#001E4F;
+    background: #FFFFFF;
+}
+
+.item-notificacao {
+    --background: #FFFFFF;
+    color: #000000;
+    font-size: 1.1em;
+}
+
+.icone-list {
+    color: #001E4F;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+
+/*Agendar Consulta*/
+
+.agendar-consulta {
+  --background-color: #F9FAFB;
+    box-shadow: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.botao-consulta {
+  --background: linear-gradient(90deg, #001E4F, #0172B2);
+  --color: #fff; 
+  --border-radius: 18px; 
+}
+
+.botao-consulta .titulo{
+    font-weight: bold;
+}
+
+.botao-consulta .subtitulo{
+    font-size: 0.6em;
+    color: #999999;
+    font-weight: normal;
+}
+
+
+/* Últimas Campanhas */
+
+.card-campanhas {
+    margin: 10px;
+    border-radius: 15px;
+    margin: 25px 10px;
+}
+
+.titulo-campanhas {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #001E4F;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ultimas-campanhas {
+    border: 2px solid #001E4F;
+    margin-bottom: 20px;
+}
+
+.subtitulo-campanhas {
+    font-size: 1em;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}

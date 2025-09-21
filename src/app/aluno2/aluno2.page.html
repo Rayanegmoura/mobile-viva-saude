@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>aluno2</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Rayane Gomes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+
+<div id="container">
+    <ion-card>
+      <img alt="Programadora" src="assets/img/ray.jpeg" style="display: block; margin: 0 auto; width: 250px; height: auto;"  />
+      <ion-card-header>
+        <ion-card-title>Rayane Gomes Moura</ion-card-title>
+        <ion-card-subtitle>24108422 - Manhã - Bangu</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Estudante de Análise e Desenvolvimento de Sistemas.
+      </ion-card-content>
+
+      <ion-button [routerLink]="['/sobre']" expand="block" color="tertiary">
+        Próximo Aluno
+      </ion-button>
+    </ion-card>
+</div>

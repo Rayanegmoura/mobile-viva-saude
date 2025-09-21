@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  titulo: string = 'Bem-vinda, Ray!'; 
+
   constructor() {}
 
 }
+

@@ -1,17 +1,123 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
+    <ion-buttons slot="start">
+       <ion-button>
+          <ion-icon name="add-sharp" size="large" class="botao-saude"></ion-icon>
+        </ion-button>
+    </ion-buttons>
+    
+    <ion-title class="titulo-centralizado">
+      {{ titulo }}
+      <ion-card-subtitle>
+        Você está no Viva Saúde+
+      </ion-card-subtitle>
     </ion-title>
+                  <!-- BARRA DE PESQUISA -->
+  </ion-toolbar>
+  <ion-toolbar class="barra-pesquisa">
+    <ion-searchbar placeholder="O que você procura?" showCancelButton="focus" class="custom"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Home</ion-title>
     </ion-toolbar>
   </ion-header>
+                  <!-- BOTÕES -->
+  <ion-grid>
+    <ion-row>
+        <ion-col size="6">
+          <ion-button expand="block" size="large" class="botao-topo">Consultas</ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button expand="block" size="large" class="botao-topo">Resultados</ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button expand="block" size="large" class="botao-topo">Agendamentos</ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button expand="block" size="large" class="botao-topo">Exames</ion-button>
+        </ion-col>
+      </ion-row>  
+  </ion-grid>
+                   <!-- NOTIFICAÇÕES RECENTES -->
+  <ion-card class="notificacoes-recentes">
+    <ion-card-header>
+      <ion-card-title><ion-icon name="notifications-outline"></ion-icon> Notificações Recentes</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="checkmark-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label> Seu exame de sangue já está disponível.</ion-label>
+        </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+        <ion-item class="item-notificacao">
+          <ion-icon name="checkmark-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label> Consulta confirmada amanhã às 14h.</ion-label>
+        </ion-item>
+
+        <ion-item class="item-notificacao">
+          <ion-icon name="checkmark-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label> Sua próxima dose de vacina é em 10 dias.</ion-label>
+        </ion-item>
+        
+        <ion-item class="item-notificacao">
+          <ion-icon name="checkmark-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label> Confirme agendamento do ortopedista.</ion-label>
+        </ion-item>
+
+
+      </ion-list>
+    </ion-card-content>
+  </ion-card> <!--fim do card notificações recentes-->
+
+                  <!-- AGENDAR CONSULTA -->
+  <ion-card class="agendar-consulta">
+    <ion-button expand="block" size="large" class="botao-consulta">
+      <span class="titulo">Agende uma consulta
+        <p class="subtitulo">Fale com um médico agora</p>
+      </span>
+    </ion-button>
+  </ion-card><!--fim do card agendar consulta-->
+
+                  <!-- ULTIMAS CAMPANHAS -->
+  <ion-card class="ultimas-campanhas">
+    <ion-card-title class="titulo-campanhas"><ion-icon name="chatbox"></ion-icon> Últimas Campanhas</ion-card-title>
+   
+    <ion-card class="card-campanhas"> <!-- Card 1 Campanhas -->
+      <ion-card-header>
+        <ion-card-subtitle class="subtitulo-campanhas">Vacinação contra gripe. Agende Já</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        A temporada de gripe tá aí! Proteja-se e proteja quem você ama. 💉✨
+      </ion-card-content>
+    </ion-card> <!--fim do card 1 campanhas-->
+    
+    <ion-card class="card-campanhas"> <!-- Card 2 Campanhas -->
+      <ion-card-header>
+        <ion-card-subtitle class="subtitulo-campanhas">Outubro Rosa 💗✨</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Cuidar de você é o primeiro passo pra vencer o câncer de mama. Previna-se, agende seus exames e abrace a vida!"
+      </ion-card-content>
+    </ion-card> <!--fim do card 2 campanhas-->
+
+    <ion-card class="card-campanhas"> <!-- Card 3 Campanhas -->
+      <ion-card-header>
+        <ion-card-subtitle class="subtitulo-campanhas">Vacinação contra a COVID-19 disponível! 💉✨</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        A prevenção ainda é a melhor forma de proteção. Agende já a sua dose e cuide da sua saúde.
+      </ion-card-content>
+    </ion-card> <!--fim do card 3 campanhas-->
+    
+  </ion-card><!--fim do card últimas campanhas-->
+
+</ion-content><!--fim do container-->

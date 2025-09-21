@@ -1,17 +1,29 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
+    <ion-buttons slot="start">
+       <ion-button>
+          <img src="assets/menu.png" alt="Menu" style="width: 30px; height: 30px;">
+        </ion-button>
+    </ion-buttons>
+
+    <ion-title class="titulo-centralizado">
+      <ion-card-subtitle>
+        Você está no Viva Saúde+
+      </ion-card-subtitle>
     </ion-title>
+  
+  </ion-toolbar>
+  <ion-toolbar class="barra-pesquisa">
+    <ion-searchbar placeholder="O que você procura?" showCancelButton="focus" class="custom"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Consultas</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <app-explore-container name="Consultas"></app-explore-container>
 </ion-content>
