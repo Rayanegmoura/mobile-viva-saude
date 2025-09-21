@@ -63,16 +63,16 @@ ion-searchbar.md.custom {
   --cancel-button-color: #001E4F;
 }
 
-/* Consultas */
+/* resultados */
 
-.titulo-consultas {
+.titulo-resultados {
     font-weight: bold;
     color: #001E4F;
     text-align: center;
     text-transform: uppercase;
 }
 
-.subtitulo-consultas {
+.subtitulo-resultados {
     font-size: 0.9em;
     color: #555555;
     text-align: center;
@@ -80,7 +80,7 @@ ion-searchbar.md.custom {
     padding-bottom: 10px;
 }
 
-.consultas {
+.resultados {
     padding: 15px;
     border-radius: 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -98,8 +98,8 @@ ion-searchbar.md.custom {
     font-size: 1.1em;
     color: #414141;
     text-align: center;
-    padding-bottom: 5px;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .data-consulta {

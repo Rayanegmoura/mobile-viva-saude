@@ -1,17 +1,17 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-   <ion-buttons slot="start">
+    <ion-buttons slot="start">
        <ion-button>
-          <img src="assets/menu.png" alt="Menu" style="width: 30px; height: 30px;">
+          <ion-icon name="add-sharp" size="large" class="botao-saude"></ion-icon>
         </ion-button>
     </ion-buttons>
-
+    
     <ion-title class="titulo-centralizado">
       <ion-card-subtitle>
         Você está no Viva Saúde+
       </ion-card-subtitle>
     </ion-title>
-  
+                  <!-- BARRA DE PESQUISA -->
   </ion-toolbar>
   <ion-toolbar class="barra-pesquisa">
     <ion-searchbar placeholder="O que você procura?" showCancelButton="focus" class="custom"></ion-searchbar>
@@ -19,11 +19,74 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Exames</ion-title>
     </ion-toolbar>
   </ion-header>
+                    <!-- TEXTO TOPO -->
+  <ion-card-header>
+    <ion-card-title class="titulo-exames">Exames</ion-card-title>
+    <ion-card-subtitle class="subtitulo-exames">Confira todos os seus exames já agendados.</ion-card-subtitle>
+  </ion-card-header>
+                  <!-- EXAMES -->
 
-  <app-explore-container name="Exames"></app-explore-container>
+  <ion-card class="exames"> <!-- Card exames -->
+    <ion-card-title class="especialidade-medica">Hemograma Completo</ion-card-title>
+    <ion-card-subtitle class="medico">Dr. Carlos Silva</ion-card-subtitle>
+    <ion-card-content class="data-consulta">25/11/2025 - 14:00
+    </ion-card-content>
+    <ion-card-content class="local-consulta">Laboratório São Lucas, Sala 305
+    </ion-card-content>
+    <ion-card-content>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label>Jejum de 8-12 horas</ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label>Não consumir álcool 24h antes.</ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label>Tomar medicações normalmente.</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content> <!--fim do card exames-->
+
+    <ion-button expand="block" size="large" class="botao-detalhes">Ver Detalhes</ion-button>
+  </ion-card><!--fim do card exames-->
+
+  <ion-card class="exames"> <!-- Card 2 exames -->
+    <ion-card-title class="especialidade-medica">Resonância Magnética - Joelho</ion-card-title>
+    <ion-card-subtitle class="medico">Dr.Roberto Costa</ion-card-subtitle>
+    <ion-card-content class="data-consulta">29/10/2025 - 11:30
+    </ion-card-content>
+    <ion-card-content class="local-consulta">Clínica São José, Sala 205
+    </ion-card-content>
+    <ion-card-content>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label>Remover todos objetos metálicos.</ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label>Trazer exames anteriores.</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content> <!--fim do card 2 exames-->
+
+    <ion-button expand="block" size="large" class="botao-detalhes">Ver Detalhes</ion-button>
+  </ion-card><!--fim do card exames-->
+
+
 </ion-content>

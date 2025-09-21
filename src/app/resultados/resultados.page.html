@@ -22,20 +22,51 @@
 
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Consultas</ion-title>
+      <ion-title size="large">resultados</ion-title>
     </ion-toolbar>
   </ion-header>
                     <!-- TEXTO TOPO -->
   <ion-card-header>
-    <ion-card-title class="titulo-consultas">Consultas</ion-card-title>
-    <ion-card-subtitle class="subtitulo-consultas">Confira todas as suas consultas já agendadas.</ion-card-subtitle>
+    <ion-card-title class="titulo-resultados">resultados</ion-card-title>
+    <ion-card-subtitle class="subtitulo-resultados">Confira todos os seus resultados já agendados.</ion-card-subtitle>
   </ion-card-header>
-                  <!-- CONSULTAS -->
+                  <!-- resultados -->
 
-  <ion-card class="consultas"> <!-- Card Consultas -->
-    <ion-card-title class="especialidade-medica">Cardiologista</ion-card-title>
-    <ion-card-subtitle class="medico">Dr.Silva</ion-card-subtitle>
-    <ion-card-content class="data-consulta">06/07/2025 - 14:00
+  <ion-card class="resultados"> <!-- Card resultados -->
+    <ion-card-title class="especialidade-medica">Hemograma Completo</ion-card-title>
+    <ion-card-subtitle class="medico">Dr. Carlos Silva</ion-card-subtitle>
+    <ion-card-content class="data-consulta">25/11/2025 - 14:00
+    </ion-card-content>
+    <ion-card-content class="local-consulta">Laboratório São Lucas, Sala 305
+    </ion-card-content>
+    <ion-card-content>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label>Jejum de 8-12 horas</ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label>Não consumir álcool 24h antes.</ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-list class="lista-notificacoes">
+        <ion-item class="item-notificacao">
+          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
+          <ion-label>Tomar medicações normalmente.</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content> <!--fim do card resultados-->
+
+    <ion-button expand="block" size="large" class="botao-detalhes">Ver Detalhes</ion-button>
+  </ion-card><!--fim do card resultados-->
+
+  <ion-card class="resultados"> <!-- Card 2 resultados -->
+    <ion-card-title class="especialidade-medica">Resonância Magnética - Joelho</ion-card-title>
+    <ion-card-subtitle class="medico">Dr.Roberto Costa</ion-card-subtitle>
+    <ion-card-content class="data-consulta">29/10/2025 - 11:30
     </ion-card-content>
     <ion-card-content class="local-consulta">Clínica São José, Sala 205
     </ion-card-content>
@@ -43,44 +74,19 @@
       <ion-list class="lista-notificacoes">
         <ion-item class="item-notificacao">
           <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
-          <ion-label>Trazer exames recentes.</ion-label>
+          <ion-label>Remover todos objetos metálicos.</ion-label>
         </ion-item>
       </ion-list>
       <ion-list class="lista-notificacoes">
         <ion-item class="item-notificacao">
           <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
-          <ion-label>Chegar com antecedência.</ion-label>
+          <ion-label>Trazer resultados anteriores.</ion-label>
         </ion-item>
       </ion-list>
-    </ion-card-content> <!--fim do card consultas-->
+    </ion-card-content> <!--fim do card 2 resultados-->
 
     <ion-button expand="block" size="large" class="botao-detalhes">Ver Detalhes</ion-button>
-  </ion-card><!--fim do card Consultas-->
-
-  <ion-card class="consultas"> <!-- Card 2 Consultas -->
-    <ion-card-title class="especialidade-medica">Dermatologista</ion-card-title>
-    <ion-card-subtitle class="medico">Dra.Fernanda</ion-card-subtitle>
-    <ion-card-content class="data-consulta">18/09/2025 - 9:30
-    </ion-card-content>
-    <ion-card-content class="local-consulta">Clínica Bem Estar, Sala 101
-    </ion-card-content>
-    <ion-card-content>
-      <ion-list class="lista-notificacoes">
-        <ion-item class="item-notificacao">
-          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
-          <ion-label>Não aplicar produtos no rosto.</ion-label>
-        </ion-item>
-      </ion-list>
-      <ion-list class="lista-notificacoes">
-        <ion-item class="item-notificacao">
-          <ion-icon name="alert-circle-sharp" class="icone-list"></ion-icon>
-          <ion-label>Trazer produtos utilizados.</ion-label>
-        </ion-item>
-      </ion-list>
-    </ion-card-content> <!--fim do card 2 consultas-->
-
-    <ion-button expand="block" size="large" class="botao-detalhes">Ver Detalhes</ion-button>
-  </ion-card><!--fim do card Consultas-->
+  </ion-card><!--fim do card resultados-->
 
 
 </ion-content>
