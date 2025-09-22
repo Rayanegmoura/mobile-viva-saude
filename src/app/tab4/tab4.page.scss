@@ -1,0 +1,70 @@
+/* Modelo da Página */
+
+ion-toolbar {
+    --background: #001E4F; ;
+    --color: #000000;
+}
+
+ion-content {
+  --background: #F9FAFB;
+}
+
+ion-card {
+    --background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+ion-card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #001E4F;
+    text-align: center;
+}
+
+/* BOTÃO DO TOPO */
+
+.botao-saude{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+/* BOTÃO DE ADICIONAR */
+
+/* NOME E AVATAR */
+
+.avatar-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ion-label h2, p {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+ion-avatar {
+  margin-bottom: 10px;
+}
+
+/* Notificações recentes */
+
+.ficha-dados{
+    margin-bottom: 30px;
+    border: 2px solid #001E4F;
+}
+
+.ficha-paciente {
+    background: #FFFFFF;
+}
+
+.dados-paciente {
+    --background: #FFFFFF;
+    color: #000000;
+    font-size: 1.1em;
+}

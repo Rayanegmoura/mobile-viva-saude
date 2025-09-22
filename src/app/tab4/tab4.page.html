@@ -1,13 +1,272 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>tab4</ion-title>
+      <ion-card-header class="avatar-card">
+      <ion-avatar class="avatar-large">
+        <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+      <ion-label>
+          <h2><strong>Rebeca Souza</strong></h2>
+          <p>Matrícula: 202514220</p>
+        </ion-label>
+    </ion-card-header>
   </ion-toolbar>
-</ion-header>
-
+  
 <ion-content [fullscreen]="true">
+
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">tab4</ion-title>
+      <ion-title size="large">Perfil</ion-title>
     </ion-toolbar>
   </ion-header>
+<!-- NOME E AVATAR -->
+  
+
+  <ion-card-header>
+    <ion-card-title>Ficha de Cadastro Médico</ion-card-title>
+  </ion-card-header>
+
+  <!-- INFORMAÇÕES DO USUÁRIO -->
+
+  <ion-card class="ficha-dados">
+
+    <ion-card-header>
+      <ion-card-title>Dados Pessoais</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list class="ficha-paciente">
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Nome Completo:</strong> Rebeca Souza de Azevedo</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>CadÚnico:</strong> 5574852</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>CPF:</strong> 123.123.123-12</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>RG:</strong> 12.123.123-3</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Data de Nascimento:</strong> 14/04/2006</ion-label>
+        </ion-item>
+        
+        <ion-item class="dados-paciente">
+          <ion-label><strong>Sexo:</strong> Feminino</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Estado Civil:</strong> Solteira</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Data de Nascimento:</strong> 14/04/2007</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Profissão:</strong> Estudante</ion-label>
+        </ion-item>
+      </ion-list> <!--FIM ION LIST-->
+    </ion-card-content><!-- FIM ION CONTENT-->
+  </ion-card> <!--fim do card dados pessoais-->
+
+  <!-- FIM DA FICHA DADOS PESSOAIS -->
+
+ <!-- INFORMAÇÕES DO CONTATO -->
+
+  <ion-card class="ficha-dados">
+    <ion-card-header>
+      <ion-card-title>Contatos</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list class="ficha-paciente">
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Telefone:</strong> (21) 3333-3333</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Celular:</strong> (21) 97878-7878</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Endereço:</strong> Rua Major, 123 - Realengo</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Email:</strong> rebecca-azed@gmail.com</ion-label>
+        </ion-item>
+        
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Contato de Emergência:</strong> Maria Souza - (21) 91234-5678</ion-label>
+        </ion-item>
+      </ion-list><!--FIM ION LIST-->
+    </ion-card-content><!-- FIM ION CONTENT-->
+  </ion-card> <!--fim do card dados pessoais-->
+
+  <!-- FIM DE INFORMAÇÕES DE CONTATO -->
+
+  <!-- INFORMAÇÕES VITAIS -->
+
+  <ion-card class="ficha-dados">
+    <ion-card-header>
+      <ion-card-title>Informações Vitais</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list class="ficha-paciente">
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Tipo Sanguíneo:</strong> O+</ion-label>
+        </ion-item>
+        
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Altura:</strong> 1,65 m</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Peso:</strong> 60 kg</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Pressão Arterial:</strong> 120/80 mmHg</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Frequência Cardíaca:</strong> 72 bpm</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Frequência Respiratória:</strong> 16 rpm</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Alergias:</strong> Nenhuma</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Medicamentos em Uso:</strong> Nenhum</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Deficiência:</strong> Não há</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Doenças Crônicas:</strong> Nenhuma</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card> <!--fim do card dados pessoais-->
+
+  <!-- FIM DE INFORMAÇÕES VITAIS -->
+
+  <!-- FICHA MÉDICA -->
+
+  <ion-card class="ficha-dados">
+    <ion-card-header>
+      <ion-card-title>Histórico Médico</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list class="ficha-paciente">
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Cirurgias:</strong> Não há</ion-label>
+        </ion-item>
+
+         <ion-item class="dados-paciente">          
+          <ion-label><strong>Vacinas:</strong> Todas em dia</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Última Consulta:</strong> 15/03/2025</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Próxima Consulta:</strong> 20/12/2025</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Exames Recentes:</strong> Hemograma Completo - 17/03/2025</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Observações:</strong> Nenhuma</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card> <!--fim do card dados pessoais-->
+
+    <!-- FIM DE FICHA MÉDICA -->
+
+    <!-- ESTILO DE VIDA -->
+
+  <ion-card class="ficha-dados">
+    <ion-card-header>
+      <ion-card-title>Estilo de Vida</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list class="ficha-paciente">
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Tabagismo:</strong> Não</ion-label>
+        </ion-item>
+
+         <ion-item class="dados-paciente">          
+          <ion-label><strong>Álcool:</strong> Não</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Atividade Física:</strong> Moderada</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Alimentação:</strong> Equilibrada</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Sono:</strong> 8h</ion-label>
+        </ion-item>
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Observações:</strong> Nenhuma</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card> <!--fim do card dados pessoais-->
+
+    <!-- FIM DE ESTILO DE VIDA -->
+
+
+   <!-- FICHA PLANO DE SAÚDE -->
+
+  <ion-card class="ficha-dados">
+    <ion-card-header>
+      <ion-card-title>Convênios</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list class="ficha-paciente">
+
+        <ion-item class="dados-paciente">          
+        <ion-label><strong>Plano de Saúde:</strong> Não Possui</ion-label>
+        </ion-item> 
+
+        <ion-item class="dados-paciente">          
+          <ion-label><strong>Observações:</strong> Nenhuma</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card> <!--fim do card dados pessoais-->
+
+    <!-- FIM DE PLANOS DE SAÚDE -->
+
 </ion-content>
