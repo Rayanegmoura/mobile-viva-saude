@@ -25,7 +25,6 @@ ion-card {
     --background: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
 }
 
 ion-card-title {
@@ -63,16 +62,16 @@ ion-searchbar.md.custom {
   --cancel-button-color: #001E4F;
 }
 
-/* exames */
+/* agendamentos */
 
-.titulo-exames {
+.titulo-agendamentos {
     font-weight: bold;
     color: #001E4F;
     text-align: center;
     text-transform: uppercase;
 }
 
-.subtitulo-exames {
+.subtitulo-agendamentos {
     font-size: 0.9em;
     color: #555555;
     text-align: center;
@@ -80,59 +79,25 @@ ion-searchbar.md.custom {
     padding-bottom: 10px;
 }
 
-.exames {
-    padding: 15px;
-    border-radius: 18px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 2px solid #001E4F;
-}
-
-.especialidade-medica{
-    font-size: 1.6em;
-    color: #000;
+.agendar-consulta {
+  --background-color: none;
+    box-shadow: none;
+    padding: 5px;
     text-align: center;
-    padding-top: 15px;
 }
 
-.medico {
-    font-size: 1.1em;
-    color: #414141;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.botao-consulta {
+  --background: linear-gradient(90deg, #001E4F, #0172B2);
+  --color: #fff; 
+  --border-radius: 18px; 
 }
 
-.data-exames {
-    font-size: 1.4em;
-    color: #000000;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.local-exames {
+.botao-consulta .titulo{
     font-weight: bold;
-    font-size: 1.2em;
-    color: #000000;
-    text-align: center;
 }
 
-.lista-notificacoes {
-    background: #FFFFFF;
-}
-
-.item-notificacao {
-    --background: #FFFFFF;
-    color: #000000;
-    font-size: 1.1em;
-}
-
-.icone-list {
-    color: #001E4F;
-    font-size: 25px;
-    margin-right: 5px;
-}
-
-.botao-detalhes {
-    --background: linear-gradient(90deg, #001E4F, #0172B2);
-    --color: #fff; 
+.botao-consulta .subtitulo{
+    font-size: 0.6em;
+    color: #999999;
+    font-weight: normal;
 }

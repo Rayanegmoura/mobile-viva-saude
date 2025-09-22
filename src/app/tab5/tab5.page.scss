@@ -63,16 +63,16 @@ ion-searchbar.md.custom {
   --cancel-button-color: #001E4F;
 }
 
-/* exames */
+/* resultados */
 
-.titulo-exames {
+.titulo-resultados {
     font-weight: bold;
     color: #001E4F;
     text-align: center;
     text-transform: uppercase;
 }
 
-.subtitulo-exames {
+.subtitulo-resultados {
     font-size: 0.9em;
     color: #555555;
     text-align: center;
@@ -80,7 +80,7 @@ ion-searchbar.md.custom {
     padding-bottom: 10px;
 }
 
-.exames {
+.resultados {
     padding: 15px;
     border-radius: 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -102,34 +102,24 @@ ion-searchbar.md.custom {
     padding-bottom: 5px;
 }
 
-.data-exames {
-    font-size: 1.4em;
-    color: #000000;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.local-exames {
+.status-resultados {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #000000;
     text-align: center;
+    text-transform: uppercase;
+    color: #f0d043;
+    letter-spacing: 3px;
 }
 
-.lista-notificacoes {
-    background: #FFFFFF;
-}
-
-.item-notificacao {
-    --background: #FFFFFF;
+.status-resultados-2 {
+    font-weight: bold;
+    font-size: 1.5em;
     color: #000000;
-    font-size: 1.1em;
-}
-
-.icone-list {
-    color: #001E4F;
-    font-size: 25px;
-    margin-right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #18b118;
+    letter-spacing: 3px;
 }
 
 .botao-detalhes {

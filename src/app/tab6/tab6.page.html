@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+       <ion-button>
+          <ion-icon name="add-sharp" size="large" class="botao-saude"></ion-icon>
+        </ion-button>
+    </ion-buttons>
+    
+    <ion-title class="titulo-centralizado">
+      <ion-card-subtitle>
+        Você está no Viva Saúde+
+      </ion-card-subtitle>
+    </ion-title>
+                  <!-- BARRA DE PESQUISA -->
+  </ion-toolbar>
+  <ion-toolbar class="barra-pesquisa">
+    <ion-searchbar placeholder="O que você procura?" showCancelButton="focus" class="custom"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">agendamentos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+                    <!-- TEXTO TOPO -->
+  <ion-card-header>
+    <ion-card-title class="titulo-agendamentos">agendamentos</ion-card-title>
+    <ion-card-subtitle class="subtitulo-agendamentos">Marque suas consultas agora mesmo!</ion-card-subtitle>
+  </ion-card-header>
+                  <!-- agendamentos -->
+
+  <ion-card class="agendar-consulta">
+    <ion-button expand="block" size="large" class="botao-consulta">
+      <span class="titulo">Consulta Médica
+        <p class="subtitulo">Agende uma consulta agora</p>
+      </span>
+    </ion-button>
+  </ion-card><!--fim do card agendar consulta-->
+
+  <ion-card class="agendar-consulta">
+    <ion-button expand="block" size="large" class="botao-consulta">
+      <span class="titulo">Exame Médico
+        <p class="subtitulo">Agendar exame médico</p>
+      </span>
+    </ion-button>
+  </ion-card><!--fim do card agendar consulta-->
+
+  <ion-card class="agendar-consulta">
+    <ion-button expand="block" size="large" class="botao-consulta">
+      <span class="titulo">Telemedicina
+        <p class="subtitulo">Fale com um médico sem sair de casa.</p>
+      </span>
+    </ion-button>
+  </ion-card><!--fim do card agendar consulta-->
+</ion-content>
