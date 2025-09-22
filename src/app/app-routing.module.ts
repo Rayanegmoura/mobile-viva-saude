@@ -16,6 +16,22 @@ const routes: Routes = [
   {
     path: 'tab6',
     loadChildren: () => import('./tab6/tab6.module').then( m => m.Tab6PageModule)
+  },
+  {
+    path: 'tab7',
+    loadChildren: () => import('./tab7/tab7.module').then( m => m.Tab7PageModule)
+  },
+  {
+    path: 'tab8',
+    loadChildren: () => import('./tab8/tab8.module').then( m => m.Tab8PageModule)
+  },
+  {
+    path: 'tab9',
+    loadChildren: () => import('./tab9/tab9.module').then( m => m.Tab9PageModule)
+  },
+  {
+    path: 'tab0',
+    loadChildren: () => import('./tab0/tab0.module').then( m => m.Tab0PageModule)
   }
 
 ];
